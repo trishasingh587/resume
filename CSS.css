@@ -1,0 +1,293 @@
+/* */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #238E9F;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 440%;
+  /*If 16px = 100% = 1em, then 90px = 562.5%
+  rem is more precise; em is not*/
+}
+
+h2 {
+  color: #238E9F;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-weight: normal;
+  color: #238E9F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150%;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  border-color: grey;
+  width: 10%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: #FEFFFF;
+  padding: 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0A2B3E;
+}
+
+span {
+  text-decoration: underline;
+  font-size: 120%;
+}
+
+/************/
+
+.top {
+  background-color: #E2F5FF;
+  /*width: 200px;
+  height: 200px;
+  border: solid 10px;*/
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 270px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 300px;
+  left: 270px;
+}
+
+/************/
+
+.middle {
+  /*background-color: #ECCBFF;
+  width: 200px;
+  height: 200px;
+  border: solid 20px;
+  margin-left: 260px;*/
+}
+
+.profile {
+  width: 55%;
+  margin: auto;
+}
+
+.cvphoto1 {
+  width: 30%;
+  padding-top: 70px;
+}
+
+.profile-h2 {
+  font-size: 200%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.profile-p {
+  margin-bottom: 60px;
+}
+
+.exp {
+  /*background-color: #AEE7CD;*/
+  width: 60%;
+  margin: auto;
+}
+
+.exp-h2 {
+font-size: 200%;
+margin-top: 60px;
+margin-bottom: 50px;
+}
+
+.exp1 {
+text-align: left;
+margin-bottom: 70px;
+}
+
+.rotibank {
+width: 25%;
+float: left;
+margin-top: 30px;
+margin-right: 50px;
+}
+
+.exp2 {
+text-align: left;
+margin-bottom: 70px;
+}
+
+.vaayu {
+width: 25%;
+float: right;
+margin-top: 10px;
+margin-left: 50px;
+}
+
+.exp3 {
+text-align: left;
+margin-bottom: 80px;
+}
+
+.nss {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.skills {
+  width: 65%;
+  margin: auto;
+  /*this margin - auto aligns everything to the center*/
+  margin-bottom: 70px;
+}
+
+.skills-h2 {
+  font-size: 200%;
+  margin-top: 60px;
+}
+
+.skill-1 {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.python {
+  width: 20%;
+  border-radius: 50%;
+  float: left;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.skill-2 {
+  margin-bottom: 80px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.sql {
+  width: 20%;
+  float: left;
+  /*float is used to wrap all the text on the side of the image. and if you want a paragraph to
+  not be on the side of the image but below it, then use clear - lect 61*/
+  margin-right: 50px;
+}
+
+.skill-3 {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.hc {
+  width: 20%;
+  border-radius: 50%;
+  float: left;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+.skill-4 {
+  margin-bottom: 80px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.pcb {
+  width: 20%;
+  float: left;
+  /*float is used to wrap all the text on the side of the image. and if you want a paragraph to
+  not be on the side of the image but below it, then use clear - lect 61*/
+  margin-right: 50px;
+}
+
+/************/
+
+.bottom {
+  width: 55%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  /*background-color: green;
+  width: 200px;
+  height: 200px;
+  border: solid 10px;
+  margin-left: 500px;*/
+}
+
+.bottom-h2 {
+  font-size: 200%;
+  margin-bottom: 50px;
+}
+
+.bottom-p {
+  /*padding-top: 7px;*/
+  padding-bottom: 35px;
+  /*line-height: 2;*/
+}
+
+.contact-button {
+  background: #78c9ff;
+  background-image: -webkit-linear-gradient(top, #78c9ff, #1e597d);
+  background-image: -moz-linear-gradient(top, #78c9ff, #1e597d);
+  background-image: -ms-linear-gradient(top, #78c9ff, #1e597d);
+  background-image: -o-linear-gradient(top, #78c9ff, #1e597d);
+  background-image: linear-gradient(to bottom, #78c9ff, #1e597d);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  text-shadow: 4px 2px 6px #3b333b;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 12px 21px 12px 21px;
+  border: solid #63bef7 0px;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background: #17608a;
+  background-image: -webkit-linear-gradient(top, #17608a, #3994d1);
+  background-image: -moz-linear-gradient(top, #17608a, #3994d1);
+  background-image: -ms-linear-gradient(top, #17608a, #3994d1);
+  background-image: -o-linear-gradient(top, #17608a, #3994d1);
+  background-image: linear-gradient(to bottom, #17608a, #3994d1);
+  text-decoration: none;
+  color: #FEFFFF;
+}
+
+/************/
+
+.footer {
+  background-color: #6691AA;
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+
+.h4-footer {
+  padding-top: 20px;
+  color: #EAF6F6;
+}
